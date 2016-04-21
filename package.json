@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-rtlcss",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Ember-Cli addon that runs rtlcss as a post-build step to generate right-to-left css files (app.rtl.css etc).",
   "directories": {
     "doc": "doc",
