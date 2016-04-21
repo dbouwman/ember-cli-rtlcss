@@ -20,7 +20,8 @@ module.exports = {
       //console.info('ember-cli-rtlcss:postprocessTree', type);
       var rtlNodes = new RTLRewrite(inputNodes);
       var merged = new BroccoliMergeTrees([inputNodes, rtlNodes], {overwrite:true});
-      return debug(merged, {name:'css-tree'});
+      return merged;
+      //return debug(merged, {name:'css-tree'});
     }else{
       return inputNodes;
     }
