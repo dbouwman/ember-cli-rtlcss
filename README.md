@@ -1,26 +1,16 @@
-# Ember-cli-rtlcss
+# ember-cli-rtlcss
 
-This README outlines the details of collaborating on this Ember addon.
+Ember Addon that adds a post build step which runs final output css files through [rtlcss](https://github.com/MohammadYounes/rtlcss).
+
+This is a work in progress - at this point it simply runs the default `rtlcss.process()` function on the `app.css` and `vendor.css` files and dumps out `app.rtl.css` and `vendor.rtl.css`.
+
+Your application will need to detect when it needs rtl css included and swap out the css files. In our case this is happening on the server.
+
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+ember install ember-cli-rtlcss
+```
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+After that, every time you do a build, the `.rtl.css` files will be generated.

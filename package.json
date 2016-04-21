@@ -15,10 +15,11 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Dave Bouwman <dbouwman@esri.com>",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
+    "broccoli-stew": "^1.2.0",
     "ember-ajax": "0.7.1",
     "ember-cli": "2.4.3",
     "ember-cli-app-version": "^1.0.0",
@@ -42,7 +43,10 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "broccoli-filter": "^1.2.3",
+    "broccoli-merge-trees": "^1.1.1",
+    "ember-cli-babel": "^5.1.6",
+    "rtlcss": "^2.0.3"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
