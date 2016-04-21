@@ -6,7 +6,6 @@ This is a work in progress - at this point it simply runs the default `rtlcss.pr
 
 Your application will need to detect when it needs rtl css included and swap out the css files. In our case this is happening on the server.
 
-
 ## Installation
 
 ```

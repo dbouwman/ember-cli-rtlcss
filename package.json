@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-rtlcss",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember-Cli addon that runs rtlcss as a post-build step to generate right-to-left css files (app.rtl.css etc).",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/dbouwman/ember-cli-rtlcss.git",
   "engines": {
     "node": ">= 0.10.0"
   },
