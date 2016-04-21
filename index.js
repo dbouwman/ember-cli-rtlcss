@@ -1,6 +1,6 @@
 /* jshint node: true */
 'use strict';
-var debug = require('broccoli-stew').debug;
+//var debug = require('broccoli-stew').debug;
 var RTLRewrite = require('./broccoli-rtl-filter');
 var BroccoliMergeTrees = require('broccoli-merge-trees');
 
